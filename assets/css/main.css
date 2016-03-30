@@ -1,0 +1,65 @@
+/*COLORS */
+/*PARCHES */
+a {
+  text-decoration: none; }
+
+/*UTIL */
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.pd-t-b {
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+/*SECTIONS */
+.article {
+  border: silver solid 1px;
+  padding: 2%; }
+  .article .product-img img {
+    width: 100%; }
+
+#Clients {
+  background-image: url(../images/client-bg.jpg);
+  padding: 7% 5%; }
+  #Clients img {
+    width: 100%; }
+
+#Clothing .item {
+  padding: 2%;
+  border: solid 1px silver; }
+  #Clothing .item img {
+    width: 100%; }
+
+#Blog img {
+  width: 100%; }
+#Blog .service {
+  color: silver;
+  border: 1px solid silver;
+  padding: 2%;
+  margin: 1%; }
+
+/*FOOTER */
+.links_footer_area {
+  background-color: #F1F1F1;
+  position: relative; }
+  .links_footer_area .social a {
+    padding: 4%;
+    background-color: #ffffff;
+    margin: 1%;
+    color: #534B4C; }
+    .links_footer_area .social a:hover {
+      background-color: #534B4C;
+      color: #ffffff; }
+  .links_footer_area .AboutUs i {
+    padding: 4%;
+    border-radius: 50%;
+    background-color: #ffffff; }
+
+.info_footer_area {
+  background-color: #534B4C;
+  color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */

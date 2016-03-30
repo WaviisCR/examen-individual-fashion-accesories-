@@ -1,0 +1,42 @@
+mixin productimg(productimg)
+	case productimg
+		when 'img1'
+			img(src="assets/images/a1.jpg")
+		when 'img2'
+			img(src="assets/images/b1.jpg")
+		when 'img3'
+			img(src="assets/images/c1.jpg")
+		when 'img4'
+			img(src="assets/images/d1.jpg")
+mixin productinfo
+	.product-name
+		p Deliver wide
+	.product-rate
+		i.fa.fa-star
+		i.fa.fa-star
+		i.fa.fa-star
+		i.fa.fa-star-o
+		i.fa.fa-star-o
+	.product-price
+mixin clothing(clothing)
+	case clothing
+		when 'item1'
+			img(src="assets/images/a2.jpg")
+		when 'item2'
+			img(src="assets/images/d2.jpg")
+		when 'item3'
+			img(src="assets/images/g1.jpg")
+		when 'item4'
+			img(src="assets/images/c2.jpg")
+		when 'item5'
+			img(src="assets/images/c2.jpg")
+		when 'item6'
+			img(src="assets/images/e2.jpg")
+mixin blogpost(blogpost)
+	case blogpost
+		when 'post1'
+			img(src="assets/images/blog1.jpg")
+		when 'post2'
+			img(src="assets/images/blog2.jpg")
+		when 'post3'
+			img(src="assets/images/blog3.jpg")
